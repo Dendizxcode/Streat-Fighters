@@ -1,0 +1,84 @@
+.logo{
+    max-width:100%;
+    height:auto;
+    border:1px dotted;
+}
+
+.footer{
+  width: 100%;
+  background-color: #FFAD64;
+  color: black;
+  text-align: center;
+  margin-top:30px;
+  display:flex;
+  justify-content: center;
+}
+
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  width:100%;
+  overflow-x: hidden;
+}
+
+.center  {
+  width: 100%;
+  background-color: #FFAD64;
+}
+
+.column .card{
+  background-color:burlywood;
+}
+
+div ul :hover{
+background-color:#96CEB4;
+}
+
+div ul{
+  font-weight:700;
+  font-size: 20px;
+}
+
+.card-body {
+  background: burlywood;
+  padding: 0px;
+  
+  flex:20px;
+}
+
+table{
+width:100%;
+}
+
+.logos{
+  width:35px;
+}
+
+.aboutus{
+width:100%;
+}
+
+.ourstore{
+  padding:10px;
+  display:block;
+  margin-top:20px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+section{
+  margin-top:15px;
+  margin-left:10%;
+}
+
+.row{
+  display:flex;
+}
+
+.column{
+  flex:33.3%;
+  text-align:center;
+}
+
+.btn .one{
+  background-color: #661717;
+}

@@ -1,0 +1,203 @@
+.logo{
+    max-width:100%;
+    height:auto;
+    border:1px dotted;
+}
+.center  {
+    width: 100%;
+    background-color: #FFAD64;
+  }
+  
+  div ul :hover{
+  background-color:#96CEB4;
+  }
+  
+  div ul{
+    font-weight:700;
+    font-size: 20px;
+  }
+  
+body{
+    overflow-x: hidden;
+}
+    
+.friedfood{
+    padding:20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 1s;
+    margin-top:50px;
+    margin-left:90px;
+}
+
+.friedfood:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
+.friedfood img{
+    display: block;
+    width:100;
+    border-radius: 5px;
+}
+
+.grilledfood{
+    padding:20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 1s;
+    margin-top:50px;
+    margin-left:90px;
+}
+
+.grilledfood:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
+.grilledfood img{
+    display: block;
+    width:100;
+    border-radius: 5px;
+}
+
+.steamfood{
+    padding:20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 1s;
+    margin-top:50px;
+    margin-left:90px;
+}
+
+.steamfood img{
+    display: block;
+    width:100;
+    border-radius: 5px;
+}
+
+.steamfood:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
+
+.palamig{
+    padding:20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;    
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 1s;
+    margin-top:50px;
+    margin-left:320px;
+  }
+  
+.palamig img{
+    display: block;
+    width:100;
+    border-radius: 5px;
+  }
+  
+.palamig:hover{
+    transform:scale(1.3);
+    z-index:2;
+  }
+
+.sweet{
+    padding:20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 1s;
+    margin-top:50px;
+    margin-left:120px;
+}
+
+.sweet img{
+    display: block;
+    width:100;
+    border-radius: 5px;
+}
+
+.sweet:hover{
+    transform:scale(1.3);
+    z-index:2;
+}
+
+      footer{
+        text-align:center;
+        display:flex;
+        justify-content: center;
+      }
+
+      .row{
+        display:flex;
+        justify-content: center;
+      }
+      
+    .column{
+        flex:33px;
+        text-align: center;
+      }
+
+      .row2
+      {
+        display:flex;
+        justify-content: center;
+      }
+
+      .column2{
+        flex:33px;
+        text-align: center;
+      }
+      
+.food{
+  margin-top:20px;
+  max-width: 100%;
+}
+
+.fmenu{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:15px;
+  max-width:60%;
+  display:block; 
+  border: solid 50px #FFAD64;
+}
+
+table{
+  width:100%;
+  }
+  
+  .logos
+  {
+    width:35px;
+  }
+
+  .footer{
+    position: relative;
+    left: 0;
+    bottom: 1000;
+    width: 100%;
+    background-color: #FFAD64;
+    color: black;
+    text-align: center;
+    margin-top:24px;
+    display:flex;
+    justify-content: center;
+  }
