@@ -10,8 +10,8 @@
   color: black;
   text-align: center;
   margin-top:30px;
-  display:flex;
   justify-content: center;
+  height:75px;
 }
 
 body {
@@ -41,12 +41,11 @@ div ul{
 .card-body {
   background: burlywood;
   padding: 0px;
-  
   flex:20px;
 }
 
 table{
-width:100%;
+  display: flex;
 }
 
 .logos{
@@ -78,3 +77,28 @@ section{
   flex:33.3%;
   text-align:center;
 }
+
+.bottom{
+  text-align:center;
+  width:100%;
+  margin-bottom:1000px;
+}
+
+tr{
+  display:flex;
+}
+
+.tcol1{
+  margin-left: 200px;
+  font-size:15px;
+}
+
+.tcol2{
+  margin-left:178px;  
+    font-size:23px;
+} 
+
+.tcol3{
+  margin-left:220px;
+  font-size:15px;  
+} 

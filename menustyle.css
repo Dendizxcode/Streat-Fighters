@@ -181,8 +181,8 @@ body{
 }
 
 table{
-  width:100%;
-  }
+  display: flex;
+}
   
   .logos
   {
@@ -190,14 +190,30 @@ table{
   }
 
   .footer{
-    position: relative;
-    left: 0;
-    bottom: 1000;
     width: 100%;
     background-color: #FFAD64;
     color: black;
     text-align: center;
-    margin-top:24px;
-    display:flex;
+    margin-top:30px;
     justify-content: center;
+    height:75px;
   }
+
+  tr{
+    display:flex;
+  }
+  
+  .tcol1{
+    margin-left: 200px;
+    font-size:15px;
+  }
+  
+  .tcol2{
+    margin-left:178px;  
+      font-size:23px;
+  } 
+  
+  .tcol3{
+    margin-left:220px;
+    font-size:15px;  
+  } 
